@@ -1,0 +1,26 @@
+.jumbotron {
+    background: url("./assets/holding_hands.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 10em;
+}
+
+.jumbotron .title {
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.jumbotron .subtitle {
+    font-size: 24px;
+    font-style: italic;
+    font-style: bold;
+}
+
+.title_text {
+    font-size: 72px;
+    background: linear-gradient(to right, #67D7FF, #C6A0F6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
