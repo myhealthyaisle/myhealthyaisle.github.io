@@ -22,6 +22,7 @@
     font-size: 72px;
     background: linear-gradient(to right, #67D7FF, #C6A0F6);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -34,4 +35,16 @@
     /* --bs-card-border-color: black; */
     border: solid 0.5px;
     background-color: #f5c255;
+}
+
+.fancy_text {
+    background: linear-gradient(to right, #67D7FF, #C6A0F6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#ourmission{
+    background-color: #f5c255;
+
 }
