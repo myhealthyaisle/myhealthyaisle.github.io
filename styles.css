@@ -24,3 +24,14 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: #f5c255 !important;
+}
+
+.card {
+    /* --bs-card-border-color: black; */
+    border: solid 0.5px;
+    background-color: #f5c255;
+}
