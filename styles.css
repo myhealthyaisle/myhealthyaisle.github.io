@@ -7,19 +7,19 @@
 }
 
 .jumbotron .title {
-    font-size: 48px;
+    font-size: 32px;
     color: #ffffff;
     font-weight: bold;
 }
 
 .jumbotron .subtitle {
-    font-size: 24px;
+    font-size: 18px;
     font-style: italic;
     font-style: bold;
 }
 
 .title_text {
-    font-size: 72px;
+    font-size: 48px;
     background: linear-gradient(to right, #67D7FF, #C6A0F6);
     -webkit-background-clip: text;
     background-clip: text;
@@ -46,5 +46,9 @@
 
 #ourmission{
     background-color: #f5c255;
+    overflow: hidden;
+}
 
+.post_it {
+    background-image: url(./assets/post-it.png);
 }
