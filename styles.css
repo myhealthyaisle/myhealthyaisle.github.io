@@ -18,6 +18,17 @@
     font-style: bold;
 }
 
+.jumbotron p, .album h2, #specializations h2, #ourmission h1, #whyus h2, #reviews h2 {
+    opacity: 0;
+    transform: translateY(150px);
+    transition: opacity 0.5s, transform 1.5s;    
+}
+
+.title.visible, .subtitle.visible, .album.visible h2, .visible#specializations h2, .visible#ourmission h1, .visible#whyus h2, .visible#reviews h2 {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
 .title_text {
     font-size: 48px;
     background: linear-gradient(to right, #67D7FF, #C6A0F6);
