@@ -17,13 +17,33 @@
     font-style: bold;
 }
 
-.jumbotron p, .album h2, #specializations h2, #ourmission h1, #whyus h2, #reviews h2 {
+#contactus iframe {
+    height: 120vh !important;
+    width: 100% !important;
+}
+
+.jumbotron p,
+.album h2,
+#specializations h2,
+#ourmission h1,
+#whyus h2,
+#reviews h2
+/* #contactus h2 */
+{
     opacity: 0;
     transform: translateY(150px);
     transition: opacity 1.5s, transform 0.75s;    
 }
 
-.title.visible, .subtitle.visible, .album.visible h2, .visible#specializations h2, .visible#ourmission h1, .visible#whyus h2, .visible#reviews h2 {
+.title.visible,
+.subtitle.visible,
+.album.visible h2,
+.visible#specializations h2,
+.visible#ourmission h1,
+.visible#whyus h2,
+.visible#reviews h2
+/* .visible#contactus h2 */
+{
     opacity: 1;
     transform: translateY(0px);
 }
