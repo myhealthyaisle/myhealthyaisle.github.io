@@ -1,3 +1,11 @@
+document.addEventListener("DOMContentLoaded", function() {
+    const currentYear = new Date().getFullYear();
+    const copyrightElement = document.getElementById("copyright");
+    if (copyrightElement) {
+        copyrightElement.innerHTML = `&copy; 2024 - ${currentYear} ` + copyrightElement.innerHTML;
+    }
+})
+
 const title = document.querySelector(".title");
 const subtitle = document.querySelector(".subtitle");
 const album = document.querySelector(".album");
